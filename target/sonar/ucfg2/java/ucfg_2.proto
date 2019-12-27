@@ -1,0 +1,50 @@
+
+ncom.mudassirshahzad.retailservice.services.RetailServiceImpl#getTotalAmountWithoutGroceries(Ljava/util/List;)D¬
+¡/Users/mudassirshahzad/Documents/GitRepos/Personal/Interviews/ADIB/retail-service/src/main/java/com/mudassirshahzad/retailservice/services/RetailServiceImpl.javaH H(-"paramAnnotations*¤
+paramAnnotations¬
+¡/Users/mudassirshahzad/Documents/GitRepos/Personal/Interviews/ADIB/retail-service/src/main/java/com/mudassirshahzad/retailservice/services/RetailServiceImpl.javaH- H(?÷
+ô
+¬
+¡/Users/mudassirshahzad/Documents/GitRepos/Personal/Interviews/ADIB/retail-service/src/main/java/com/mudassirshahzad/retailservice/services/RetailServiceImpl.javaG G(
+
+%4"
+__annotate*
+java.lang.Override*
+
+itemsjava.util.Listá
+Þ
+¬
+¡/Users/mudassirshahzad/Documents/GitRepos/Personal/Interviews/ADIB/retail-service/src/main/java/com/mudassirshahzad/retailservice/services/RetailServiceImpl.javaH9 H(>
+itemsjava.util.List"__annotation*
+
+%4*
+1*Ô
+1¬
+¡/Users/mudassirshahzad/Documents/GitRepos/Personal/Interviews/ADIB/retail-service/src/main/java/com/mudassirshahzad/retailservice/services/RetailServiceImpl.javaJ	 J(®«
+¬
+¡/Users/mudassirshahzad/Documents/GitRepos/Personal/Interviews/ADIB/retail-service/src/main/java/com/mudassirshahzad/retailservice/services/RetailServiceImpl.javaJ	 J(
+%0java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
+
+itemsjava.util.List2stream()ûø
+¬
+¡/Users/mudassirshahzad/Documents/GitRepos/Personal/Interviews/ADIB/retail-service/src/main/java/com/mudassirshahzad/retailservice/services/RetailServiceImpl.javaJ	 J(c
+%1java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*
+
+%0java.util.stream.Stream*
+""2&filter(Ljava/util/function/Predicate;)Ÿœ
+¬
+¡/Users/mudassirshahzad/Documents/GitRepos/Personal/Interviews/ADIB/retail-service/src/main/java/com/mudassirshahzad/retailservice/services/RetailServiceImpl.javaJ	 K( #
+%2java.util.stream.DoubleStream"ijava.util.stream.Stream#mapToDouble(Ljava/util/function/ToDoubleFunction;)Ljava/util/stream/DoubleStream;*
+
+%1java.util.stream.Stream*
+""22mapToDouble(Ljava/util/function/ToDoubleFunction;)”‘
+¬
+¡/Users/mudassirshahzad/Documents/GitRepos/Personal/Interviews/ADIB/retail-service/src/main/java/com/mudassirshahzad/retailservice/services/RetailServiceImpl.javaJ	 K(&
+%3double"$java.util.stream.DoubleStream#sum()D*%
+#
+%2java.util.stream.DoubleStream2sum()"·
+¬
+¡/Users/mudassirshahzad/Documents/GitRepos/Personal/Interviews/ADIB/retail-service/src/main/java/com/mudassirshahzad/retailservice/services/RetailServiceImpl.javaJ K('
+"":
+itemsjava.util.ListB@>
+<com.mudassirshahzad.retailservice.services.RetailServiceImpl

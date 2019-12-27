@@ -1,0 +1,7 @@
+organization=mudassirshahzad-cloudkey
+projectKey=mudassirshahzad_retail-service
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.3777
+dashboardUrl=https://sonarcloud.io/dashboard?id=mudassirshahzad_retail-service
+ceTaskId=AW9I6KQqqRe6DXAGesI_
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AW9I6KQqqRe6DXAGesI_
