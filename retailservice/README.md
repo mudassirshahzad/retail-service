@@ -24,38 +24,41 @@ What things you need to install the software and how to install them
 
 A step by step series of examples that tell you how to get a development env running
 
-Clone the repository [swagger-springboot-server-generator](https://github.com/mudassirshahzad/retail-service.git) 
+Clone the repository [retail-service](https://github.com/mudassirshahzad/retail-service.git) 
 
 ```
-git clone https://github.com/mudassirshahzad/swagger-springboot-server-generator.git
+git clone https://github.com/mudassirshahzad/retail-service.git
 ```
 
-Run the code generation utility
+Run maven clean install on the `[Repo Root Folder]/retailservice` folder
 
 ```
-If on windows, Double click the �CodeGenerator.bat�. 
-Otherwise, just edit the .bat file and run the commands.
+mvn clean install
 ```
 
-Run the newly created project under "GeneratedProject"
+
+### SonarQube report
+
+- The project is linked to [SonarCloud](https://sonarcloud.io/dashboard?id=mudassirshahzad_retail-service)
+- To check the latest sonar cloud report, run the following command
 
 ```
-cd GeneratedProject
-mvn spring-boot:run
+mvn verify sonar:sonar
 ```
 
-### Access the initial local swagger documentation
 
-http://localhost:8080/initialEndpoint
+### Launch the jacoco test coverate report
 
-- Port can be changed from GeneratedProject -> src -> main -> resources -> application.properties
-
-
-## Project Demo
-
-A sample generated code project is checked in to the repo [poc-springboot-generated-code](https://github.com/mudassirshahzad/swagger-springboot-server-generated-code.git)
+- After a successful maven build, Jacoco test coverage report can be seen from the  `[Repo Root Folder]/retailservice/target/site/jacoco/index.html` 
 
 
-## Team Members
+
+### Object Oriented Analysis - Class diagram
+
+- The class diagram is available in the repository root folder by the name "RetailServiceClassDigram.drawio".
+- This diagram was generated using online tool: [https://www.draw.io/](https://www.draw.io/)
+
+
+### Team Members
 
 * **Mudassir Shahzad** 	- *Initial work* 	- 	www.mudassirshahzad.com
