@@ -30,11 +30,17 @@ Clone the repository [retail-service](https://github.com/mudassirshahzad/retail-
 git clone https://github.com/mudassirshahzad/retail-service.git
 ```
 
-Run maven clean install on the `[Repo Root Folder]/retailservice` folder
+Run a maven clean install on the root folder
 
 ```
 mvn clean install
 ```
+
+
+### Launch the jacoco test coverate report
+
+- After a successful maven build, Jacoco test coverage report can be seen from the  `[Repo Root Folder]/target/site/jacoco/index.html` 
+
 
 
 ### SonarQube report
@@ -46,11 +52,7 @@ mvn clean install
 mvn verify sonar:sonar
 ```
 
-
-### Launch the jacoco test coverate report
-
-- After a successful maven build, Jacoco test coverage report can be seen from the  `[Repo Root Folder]/retailservice/target/site/jacoco/index.html` 
-
+Note: Refresh the [SonarCloud](https://sonarcloud.io/dashboard?id=mudassirshahzad_retail-service) page to see the latest changes.
 
 
 ### Object Oriented Analysis - Class diagram
