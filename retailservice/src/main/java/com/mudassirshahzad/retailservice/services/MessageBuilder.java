@@ -1,4 +1,4 @@
-package com.mudassirshahzad.services;
+package com.mudassirshahzad.retailservice.services;
 
 public class MessageBuilder {
 

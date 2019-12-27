@@ -1,8 +1,8 @@
-package com.mudassirshahzad.retail;
+package com.mudassirshahzad.retailservice;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import com.mudassirshahzad.services.MessageBuilder;
+import com.mudassirshahzad.retailservice.services.MessageBuilder;
 
 import org.junit.jupiter.api.Test;
 
