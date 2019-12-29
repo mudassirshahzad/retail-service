@@ -55,16 +55,16 @@ public class RetailServiceImpl implements RetailService {
 	public float getDiscountPercentage(User user) {
 
 		if (UserType.EMPLOYEE.equals(user.getUserType())) {
-			return 30.0f;
+			return Float.parseFloat(env.getProperty("discount.employee.percentage"));
 		} else if (UserType.AFFILIATE.equals(user.getUserType())) {
 
-			return 10.0f;
+			return Float.parseFloat(env.getProperty("discount.affiliate.percentage"));
 		} else if (UserType.REGULAR_CUSTOMER.equals(user.getUserType())) {
 
-			return 5.0f;
+			return Float.parseFloat(env.getProperty("discount.regular.customer.percentage"));
 		} else {
 
-			return 0.0f;
+			return Float.parseFloat(env.getProperty("discount.new.customer.percentage"));
 		}
 	}
 
