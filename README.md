@@ -60,6 +60,10 @@ Note: Refresh the [SonarCloud](https://sonarcloud.io/dashboard?id=mudassirshahza
 - The class diagram is available in the repository root folder by the name "RetailServiceClassDigram.drawio".
 - This diagram was generated using online tool: [https://www.draw.io/](https://www.draw.io/)
 
+### Assumptions
+ - The items will be scanned individually at checkout time, the program expects an item list
+ - The user will be asked for a barcode or the cash handler will enter the user type manually(possibly from a front end), the program expects a user object
+
 
 ### Team Members
 
