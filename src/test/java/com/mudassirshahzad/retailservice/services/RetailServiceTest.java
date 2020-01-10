@@ -9,7 +9,6 @@ import com.mudassirshahzad.retailservice.entities.Item;
 import com.mudassirshahzad.retailservice.entities.ItemType;
 import com.mudassirshahzad.retailservice.entities.User;
 import com.mudassirshahzad.retailservice.entities.UserType;
-import com.mudassirshahzad.retailservice.services.RetailService;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -46,8 +45,8 @@ public class RetailServiceTest {
 		User user = User.builder().userType(UserType.EMPLOYEE).build();
 		Item item1 = Item.builder().name("Cup").price(50).type(ItemType.KITCHEN_ITEMS).build();
 		Item item2 = Item.builder().name("Cup").price(50).type(ItemType.KITCHEN_ITEMS).build();
-		Item item3 = Item.builder().name("Fruits").price(50).type(ItemType.GROCERY).build();
-		Item item4 = Item.builder().name("Fruits").price(50).type(ItemType.GROCERY).build();
+		Item item3 = Item.builder().name("Fruits1").price(50).type(ItemType.GROCERY).build();
+		Item item4 = Item.builder().name("Fruits2").price(50).type(ItemType.GROCERY).build();
 		List<Item> items = new ArrayList<>();
 		items.add(item1);
 		items.add(item2);
